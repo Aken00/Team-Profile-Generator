@@ -6,7 +6,9 @@
   "dependencies": {
     "inquirer": "^7.3.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^26.5.2"
+  },
   "scripts": {
     "test": "jest --verbose test/*"
   },
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/Aken00/Team-Profile-Generator#readme",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   }
 }
