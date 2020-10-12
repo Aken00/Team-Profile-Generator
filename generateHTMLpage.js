@@ -1,11 +1,5 @@
 const Employee = require("./lib/Employee");
 
-// const generateHTML = (employees) => {
-//     const employeeDiv = [];
-//     for(let employee of employees) {
-//         const divs = `<div><p>${employee.getName()}</p></div>`;
-//         employeeDiv.push(div);
-//     };
 
 function generateHTML(userData) {
     console.log(typeof userData);
@@ -82,10 +76,10 @@ console.log(userData)
 teamArray.push(userData.filter(employee=>employee.getRole() === 'Manager')
 .map(manager => createManager(manager))
 .join(""))
-teamArray.push(userData.filter(employee=>employee.getRole() === 'Manager')
+teamArray.push(userData.filter(employee=>employee.getRole() === 'Engineer')
 .map(engineer => createEngineer(engineer))
 .join(""))
-teamArray.push(userData.filter(employee=>employee.getRole() === 'Manager')
+teamArray.push(userData.filter(employee=>employee.getRole() === 'Intern')
 .map(intern => createIntern(intern))
 .join(""))
 

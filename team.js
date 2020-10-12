@@ -1,7 +1,6 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { type } = require("os");
 
 const Manager = require("./lib/Manager")
 const Engineer = require("./lib/Engineer")
@@ -12,7 +11,7 @@ const teamArray = [];
 const generateHTML = require("./generateHTMLpage")
 
 
-// Addin user prompt to fill out Profile. 
+// Adding user prompt to fill out Profile. 
 
     addManager = () => {
         inquirer
@@ -39,7 +38,7 @@ const generateHTML = require("./generateHTMLpage")
             }
         ])
         .then(answers => {
-            const manager = new Manager (answers.name, answers.id, answers.email, answers.officeNum);
+            const manager = new Manager (answers.name, answers.id, answers.email, answers.officeNumber);
             teamArray.push(manager);
             addEmployee();
         });
@@ -151,40 +150,4 @@ const generateHTML = require("./generateHTMLpage")
     }
 
     start();
-
-
-// function to initialize the program
-// function init(data) {
-//     promptUser()
-//     .then(teamArray=> {
-//         console.log("this worked" + typeof teamArray)
-//         return Promise.resolve([teamData.generateHTML(teamData)]);
-//     })
-//     .then(teamData=>{fs.writeToFile(fileName,teamData)})
-//     .catch(err => {fs.writeFile
-//     console.log()
-// })
-// }
-
-// .then(empData => {
-//     // teamData.push(empData);
-//     // console.log(teamData);
-//     // if (empData.confirmAddEmp) {
-//     //     return promptUser(teamData);
-//     // }else {
-//     //     return teamData;
-//     // }
-//     if (empData.role=== "Manager") {
-//         const manager = new Manager(empData.name, empData.id, empData.email, empData.officeNumber)
-//         teamData.push(manager)
-//     } else if (empData.role=== "Engineer"){
-//         const engineer = new Engineer(empData.name, empData.id, empData.email, empData.gitHub)
-//         teamData.push(engineer)
-//     } else if (empData.role=== "Intern") {
-//         const intern = new Intern(empData.name, empData.id, empData.email, empData.school)
-//         teamData.push(intern)
-//     }
-
-//     return teamData;
-//     });
 
