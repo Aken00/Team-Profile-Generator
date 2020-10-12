@@ -69,5 +69,5 @@ Visit demo video at:https://drive.google.com/file/d/1OFGzOwHgxyYsH-m3fYQg2yVwWV2
 
 ## Questions
   * Github Username: Aken00
-  * [Project Repo](https://github.com/Aken00)
+  * [User Github](https://github.com/Aken00)
   * You can reach me at (ajken04@gmail.com)
