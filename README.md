@@ -1,6 +1,25 @@
 # Team-Profile-Generator
 
 
+## Table of Contents
+
+* [Description]
+* [UserStory]
+* [Acceptance-Criteria]
+* [Installation]
+* [Usage]
+* [Screen-Shots]
+* [Project-Link]
+* [Github-Pages-Link]
+* [Video-Link]
+* [Questions]
+
+
+## Description 
+
+A series of questions a manager can answer to create a team profile.
+
+
 ## User Story
 
 AS A manager
@@ -26,3 +45,29 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
+
+## Usage
+WHEN in the command line: run npm i
+THEN run: node Team.js 
+
+## Screen Shots 
+![Screenshot](./Team-Profile-Generator/assets/Images-clips/Profile-Gen-SS1.png)
+![Screenshot](./Team-Profile-Generator/assets/Images-clips/Profile-Gen-SS1-Browser.png)
+![Screenshot](./Team-Profile-Generator/assets/Images-clips/Profile-Gen-SS2-Browser.png)
+
+
+## Project Link
+Visit deplyed project at:https://github.com/Aken00/Team-Profile-Generator
+
+
+## Github Pages Link
+https://aken00.github.io/Team-Profile-Generator/
+
+## Video Link
+Visit demo video at:https://drive.google.com/file/d/1OFGzOwHgxyYsH-m3fYQg2yVwWV2psAOI/view?usp=sharing
+
+
+## Questions
+  * Github Username: Aken00
+  * [Project Repo](https://github.com/Aken00)
+  * You can reach me at (ajken04@gmail.com)
