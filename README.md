@@ -1,19 +1,6 @@
 # Team-Profile-Generator
 
 
-## Table of Contents
-
-* [Description]
-* [UserStory]
-* [Acceptance-Criteria]
-* [Installation]
-* [Usage]
-* [Screen-Shots]
-* [Project-Link]
-* [Github-Pages-Link]
-* [Video-Link]
-* [Questions]
-
 
 ## Description 
 
