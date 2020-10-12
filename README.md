@@ -51,9 +51,9 @@ WHEN in the command line: run npm i
 THEN run: node Team.js 
 
 ## Screen Shots 
-![Screenshot](./Team-Profile-Generator/assets/Images-clips/Profile-Gen-SS1.png)
-![Screenshot](./Team-Profile-Generator/assets/Images-clips/Profile-Gen-SS1-Browser.png)
-![Screenshot](./Team-Profile-Generator/assets/Images-clips/Profile-Gen-SS2-Browser.png)
+![](assets/Images-clips/Profile-Gen-SS1.png)
+![](assets/Images-clips/Profile-Gen-SS1-Browser.png)
+![](assets/Images-clips/Profile-Gen-SS2-Browser.png)
 
 
 ## Project Link
