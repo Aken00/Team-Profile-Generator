@@ -44,7 +44,7 @@ THEN run: node Team.js
 
 
 ## Project Link
-Visit deplyed project at:https://github.com/Aken00/Team-Profile-Generator
+Visit deployed project at:https://github.com/Aken00/Team-Profile-Generator
 
 
 ## Github Pages Link
